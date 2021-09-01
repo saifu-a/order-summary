@@ -1,15 +1,69 @@
 .card {
   width: 450px;
+  height: 650px;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-color: hsl(225, 100%, 98%);
   overflow: hidden;
 }
 
+.card-heading {
+  color: hsl(223, 47%, 23%);
+  margin: 0;
+  padding: 0;
+}
+
 .card-details {
+  color: hsl(224, 23%, 55%);
   padding: 0 60px;
   text-align: center;
+}
+
+.card-summary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-pricing {
+  padding-left: 15px;
+  padding-right: 90px;
+}
+
+.card-plan {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  padding-bottom: 5px;
+}
+
+.card-price {
+  color: hsl(224, 23%, 55%);
+}
+
+.card-change {
+  text-decoration: underline;
+  color: hsl(245, 75%, 52%);
+  cursor: pointer;
+}
+
+.button-proceed {
+  color: hsl(225, 100%, 94%);
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 10px;
+  font-weight: 700;
+  border-style: none;
+  padding: 15px 75px;
+  cursor: pointer;
+}
+
+.button-cancel {
+  font-weight: 700;
+  border-style: none;
+  padding: 0px 75px 40px;
+  color: hsl(224, 23%, 55%);
+  background-color: hsl(225, 100%, 98%);
+  cursor: pointer;
 }

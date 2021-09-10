@@ -9,6 +9,7 @@
   background-color: hsl(225, 100%, 98%);
   overflow: hidden;
   margin-top: 100px;
+  box-shadow: 0 0 10px hsl(224, 23%, 55%);
 }
 
 .card-heading {
@@ -52,6 +53,8 @@
   text-decoration: underline;
   color: hsl(245, 75%, 52%);
   cursor: pointer;
+  font-weight: 700;
+  font-size: 0.9rem;
 }
 
 .button-proceed {
@@ -78,9 +81,9 @@
 
 @media (max-width: 376px) {
   .card {
-    margin-top: 50px;
+    margin-top: 60px;
     width: 330px;
-    height: 600px;
+    height: 580px;
   }
 
   img {
@@ -94,6 +97,11 @@
 
   .card-details {
     padding: 0 30px;
+  }
+
+  .card-pricing {
+    padding-left: 15px;
+    padding-right: 30px;
   }
 
   .button-proceed {

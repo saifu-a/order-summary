@@ -1,6 +1,6 @@
 .card {
   width: 450px;
-  height: 650px;
+  height: 700px;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -24,7 +24,7 @@
   padding: 0 60px;
   margin: -20px 0;
   text-align: center;
-  line-height: 1.5;
+  line-height: 1.75;
 }
 
 .card-summary {

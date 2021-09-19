@@ -6,10 +6,11 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: hsl(225, 100%, 98%);
+  background-color: hsl(0, 0%, 100%);
   overflow: hidden;
   margin-top: 100px;
   box-shadow: 0 0 10px hsl(224, 23%, 55%);
+  font-weight: 500;
 }
 
 .card-heading {
@@ -17,6 +18,7 @@
   margin: 0;
   padding: 0;
   font-weight: 900;
+  font-size: 1.75rem;
 }
 
 .card-details {
@@ -35,7 +37,7 @@
 }
 
 .card-pricing {
-  padding-left: 15px;
+  padding-left: 30px;
   padding-right: 90px;
 }
 
@@ -57,6 +59,10 @@
   font-size: 0.9rem;
 }
 
+.card-change:hover {
+  color: hsl(245, 75%, 72%);
+}
+
 .button-proceed {
   color: hsl(225, 100%, 94%);
   background-color: hsl(245, 75%, 52%);
@@ -69,6 +75,10 @@
   box-shadow: 0 10px 10px hsl(225, 100%, 94%);
 }
 
+.button-proceed:hover {
+  background-color: hsl(245, 75%, 72%);
+}
+
 .button-cancel {
   font-weight: 700;
   border-style: none;
@@ -77,6 +87,10 @@
   background-color: hsl(225, 100%, 98%);
   cursor: pointer;
   margin: 0;
+}
+
+.button-cancel:hover {
+  color: hsl(223, 47%, 23%);
 }
 
 @media (max-width: 376px) {
@@ -89,10 +103,6 @@
   img {
     object-fit: cover;
     height: 162.5px;
-  }
-
-  .card-heading {
-    font-size: 1.5rem;
   }
 
   .card-details {
